@@ -75,6 +75,7 @@ export function generatePalette(
   baseColor: string,
   mode: ColorMode = ColorMode.LIGHT
 ): ColorPalette[] {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [hue, saturation, lightness] = hexToHSL(baseColor);
 
   // Define lightness scales for both modes
